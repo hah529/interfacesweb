@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <section class="encabezado">
+        <div>
+            <p>numero 1</p>
+        </div>
+        <div>
+            <p>numero 2</p>
+        </div>
+        <div>
+             <p>numero 3</p>
+        </div>
+        <div>
+            <p>numero 4</p>
+        </div>
+
+    </section>
+
+</head>
+<body>
+
+    <section class="sidebar">
+        <p>Esto va ser el sidebar en el lado izquierdo</p>
+    </section>
+    <section class="contenedor">
+        <header class="titulocontenedor">
+            <p>Titulo del contenedor del medio</p>
+        </header>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+    </section>
+
+</body>
+
+<footer>
+    <p>Esto es el footer</p>
+</footer>
+
+</html>
+
+
+<style>
+
+    section{
+        border: 2px solid;
+        border-color: black;
+        box-shadow: 0 0 5px black;
+    }
+    .encabezado{
+        margin:auto ;
+        width: 800px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 100px ;  
+        background-color: blue;      
+    }
+    .encabezado div{
+        margin: auto;
+        background-color: red;
+    }
+    .sidebar{
+        width: 200px;
+        height: 500px;
+        padding: 30px;
+        background-color: chartreuse;
+        display: flex;
+        flex-direction: column ;
+    }
+    .contenedor{
+        
+        display: flex;
+
+    }
+
+
+
+</style>
